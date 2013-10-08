@@ -1,17 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,900,700italic,900italic);
 * {
-	font-family: 'Roboto', sans-serif; line-height:1.2; vertical-align:middle;
+  font-family: 'Roboto', sans-serif; line-height:1.2; vertical-align:middle;
 }
 body {
-	background:#222;
+  background:#222;
 }
 main {
   display:block;
   position:relative;
-  width:30rem;
-  margin:3vh auto;
+  width:95%;
+  margin:2vh auto;
   padding:1.5rem 0 0;
-  background:#d5d5d5;
+  background:transparent;
   outline
   border-radius:.25rem;
   overflow:hidden;
@@ -19,12 +19,17 @@ main {
   transform-origin:center 3rem;
   transition:transform .3s;
 }
+.card:hover {
+  transform:scale(.80);
+}
 .card {
-  padding:1.5rem;
+  padding:1.5rem ;
   box-shadow:0 1px 2px #aaa;
   background:white;
-  margin:0 1rem 1rem;
-  border-radius:3px;
+  
+  margin:0rem 0rem 0rem 0rem;
+  border-radius:.77rem;
+  width: 22.9rem; 
   user-select:none;
   animation:fly-in-from-left .5s 1s ease both;
   transform-origin:top left;
@@ -49,19 +54,19 @@ main {
   }
 }
 
-.card:after {
+/*.card:after {
   position:absolute;
   font-size:.9rem;
   top:1.5rem;
   right:1rem;
   border:thin solid gray;
   color:gray;
-  width:1rem;
+  width:28rem;
   line-height:1rem;
   text-align:center;
   border-radius:50%;
   pointer-events:none;
-}
+}*/
 
 h1 {
   font-size:2rem;
@@ -73,20 +78,21 @@ h1 {
   }
 
 h2 {
-  font-size:1rem;
-  color:gray;
-  font-weight:400;
-}
-h3 {
-  font-size:.5rem;
+  font-size:.9rem;
   line-height:2.5;
   color:gray;
   font-weight:400;
 }
+
 .map {
-  height:12rem;
-  background:whitesmoke;
-  margin:-1.5rem 0 0 -1.5rem;
-  width:28rem;
+   background-image: url(https://i.ytimg.com/vi/QYbRnLKtU3Q/hqdefault.jpg);
+  height:200px;
+  width:26rem; 
+ 
+  background-position:center;
+  background-size:cover ; 
+  border-radius:.5rem .5rem 0rem 0rem; 
+  margin:-1.5rem 0rem 0rem -1.5rem;
+  /*width:28rem;*/
   
 }
