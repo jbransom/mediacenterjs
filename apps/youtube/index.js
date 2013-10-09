@@ -17,7 +17,7 @@
 */
 
 // Choose your render engine. The default choice is JADE:  http://jade-lang.com/
-exports.engine = 'jade';
+//exports.engine = 'jade';
 
 
 // Render the indexpage
