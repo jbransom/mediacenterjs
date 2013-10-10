@@ -1,14 +1,15 @@
 {
-  "moviepath": "",
-  "musicpath": "",
-  "tvpath": "",
+  "moviepath": "C:temp/",
+  "musicpath": "C:temp/",
+  "tvpath": "C:temp/",
   "language": "en",
   "onscreenkeyboard": "false",
-  "location": "",
+  "location": "london",
   "screensaver": "dim",
   "theme": "wigo.css",
   "spotifyUser": "",
   "spotifyPass": "",
   "port": "3000",
-  "oauthKey": "4JyE38P_ZmsNXGR3vdmTKb7sdSM"
+  "oauthKey": "4JyE38P_ZmsNXGR3vdmTKb7sdSM",
+  "oauth": "ya29.AHES6ZSHAQ_dFWF66WfYJjrEndT1U3xNhQ8X0WraK2LbQjyusHa4nA"
 }
